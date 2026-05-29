@@ -105,6 +105,17 @@ function clearCarrito () {
 //     //     setAuth(false) //modifica el auth
 //     // },3000); despues de 3 segundos cambia 
 //     como aca hay dos Hooks pero cuando se cumple la condicion hay otro Hook y ahi explota la pagina despues de 3 segundos
+
+// Hooks
+
+// Crear tus propios Hooks y es la de incorporar State y otros Hooks de React a tu propio codigo para poder reutilizar en otros proyectos
+// Permite organizar codigo, el hook se encarga de toda la logica del state mientras que los componentes solo muestra la info.
+// Ventaja: 
+// - tendremos State, effect, integrar otros hooks y performance 
+// - Reutilizable en otros proyectos y facil de escribir
+
+// Son funciones pero Tienen algunas reglas, deben seguir convencion de react use{hook} React escanea por problemas de reglas de los hooks
+// El Hook tiene logica y no presentacion
 //     */
     
 //     /*useEffect siempre toma un callback dentro que dependiendo de como lo declares va a hacer diferentes cosas, bastante versatil
